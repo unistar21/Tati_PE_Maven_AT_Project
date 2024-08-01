@@ -3,12 +3,14 @@ import java.time.LocalDateTime;
 public class DayOfWeekUtility {
 
 
-    private static String getDayOfWeekNextYear(int plusYears) {
+    public static String getDayOfWeekNextYear(int plusYears) {
 
         LocalDateTime ldt = LocalDateTime.now().plusYears(plusYears);
         int year = ldt.getYear();
         int dayNumber = ldt.getDayOfWeek().getValue();
         String dayValue = getDayOfWeek(dayNumber);
+
+
 
         if (year % 4 == 0 && year % 100 != 0) {
             if (dayNumber == 6 || dayNumber == 7) {
