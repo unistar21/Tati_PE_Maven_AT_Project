@@ -1,4 +1,4 @@
-package steps;
+package originaltests;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +15,7 @@ public class London {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        driver.get("https://www.booking.com/");
+        driver.get("https://www.booking.com/");+
         driver.findElement(By.xpath("//*[text()='Accept']")).click();
 
 
