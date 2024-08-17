@@ -5,20 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7471ab16-7966-4ba5-9d17-392f376c70c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/daytests/DayOfWeekTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gui/GoogleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Class2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Class3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Class4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Demoda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/London.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/BaseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/ToJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/classwork/toJsonRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/WebDriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BookingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SchoolPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SchoolRunnerCuc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SchoolRunnner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/booking/BookingParisJUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/school/SchoolCuc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/school/SchoolTestJUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/School.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DayOfWeekUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DayOfWeekUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gui/GoogleUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/originaltests/Class1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Class2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/originaltests/Class2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Class3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/originaltests/Class3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Class4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/originaltests/BookingParis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Demoda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/originaltests/Demoda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/London.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/originaltests/London.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/originaltests/School.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +67,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BookingParis.executor": "Run",
     "Application.Class1.executor": "Run",
     "Application.Class2.executor": "Run",
     "Application.Class3.executor": "Run",
@@ -58,95 +75,137 @@
     "Application.Demoda.executor": "Run",
     "Application.London.executor": "Run",
     "Application.School.executor": "Run",
+    "Application.ToJson.executor": "Run",
+    "Application.toJson.executor": "Run",
+    "Cucumber Java.Scenario: School test.executor": "Run",
+    "JUnit.ApiTest.longNameSearch.executor": "Run",
+    "JUnit.ApiTest.partialSearch.executor": "Run",
+    "JUnit.ApiTest.partialSearchLongName.executor": "Run",
+    "JUnit.ApiTest.partiallySearch.executor": "Run",
+    "JUnit.ApiTest.shortNameSearch.executor": "Run",
+    "JUnit.ApiTest.testMethod.executor": "Run",
+    "JUnit.BookingParisJUnit.testBookingParis.executor": "Run",
     "JUnit.DayOfWeekTest.executor": "Run",
     "JUnit.DayOfWeekTest.test1.executor": "Run",
     "JUnit.DayOfWeekTest.test2.executor": "Run",
+    "JUnit.SchoolRunnerCuc.executor": "Run",
+    "JUnit.SchoolRunnner.executor": "Run",
+    "JUnit.SchoolTest.executor": "Run",
+    "JUnit.SchoolTest.testSchool.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "ref",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pentyakta/Desktop/AT-G10/Tati_PE_Maven_AT_Project/src/main/java",
-    "onboarding.tips.debug.path": "C:/Users/pentyakta/Desktop/AT-G10/Tati_PE_Maven_AT_Project/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "C:/Users/pentyakta/Desktop/AT-G10/Tati_PE_AT_G10",
+    "onboarding.tips.debug.path": "C:/Users/pentyakta/Desktop/AT-G10/Tati_PE_Maven_AT_Project/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pentyakta\Desktop\AT-G10\Tati_PE_Maven_AT_Project\src\test\resources" />
       <recent name="C:\Users\pentyakta\Desktop\AT-G10\Tati_PE_Maven_AT_Project\src\main\java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests.school" />
+      <recent name="pages" />
+      <recent name="api.classwork" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.School">
-    <configuration name="Class3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="steps.Class3" />
+  <component name="RunManager" selected="JUnit.BookingParisJUnit.testBookingParis">
+    <configuration name="ApiTest.longNameSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tati_PE_Maven_AT_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="api.classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api.classwork" />
+      <option name="MAIN_CLASS_NAME" value="api.classwork.ApiTest" />
+      <option name="METHOD_NAME" value="longNameSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Class4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="steps.Class4" />
+    <configuration name="ApiTest.partialSearchLongName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tati_PE_Maven_AT_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="api.classwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="api.classwork" />
+      <option name="MAIN_CLASS_NAME" value="api.classwork.ApiTest" />
+      <option name="METHOD_NAME" value="partialSearchLongName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demoda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="steps.Demoda" />
+    <configuration name="BookingParisJUnit.testBookingParis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tati_PE_Maven_AT_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="tests.booking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests.booking" />
+      <option name="MAIN_CLASS_NAME" value="tests.booking.BookingParisJUnit" />
+      <option name="METHOD_NAME" value="testBookingParis" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="London" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="steps.London" />
+    <configuration name="SchoolTestJUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tati_PE_Maven_AT_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="tests.school.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests.school" />
+      <option name="MAIN_CLASS_NAME" value="tests.school.SchoolTestJUnit" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="steps.School" />
+    <configuration name="SchoolTestJUnit.testSchool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tati_PE_Maven_AT_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="steps.*" />
+          <option name="PATTERN" value="tests.school.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests.school" />
+      <option name="MAIN_CLASS_NAME" value="tests.school.SchoolTestJUnit" />
+      <option name="METHOD_NAME" value="testSchool" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ApiTest.longNameSearch" />
+      <item itemvalue="JUnit.ApiTest.partialSearchLongName" />
+      <item itemvalue="JUnit.BookingParisJUnit.testBookingParis" />
+      <item itemvalue="JUnit.SchoolTestJUnit" />
+      <item itemvalue="JUnit.SchoolTestJUnit.testSchool" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.School" />
-        <item itemvalue="Application.Demoda" />
-        <item itemvalue="Application.Class4" />
-        <item itemvalue="Application.London" />
-        <item itemvalue="Application.Class3" />
+        <item itemvalue="JUnit.BookingParisJUnit.testBookingParis" />
+        <item itemvalue="JUnit.SchoolTestJUnit.testSchool" />
+        <item itemvalue="JUnit.SchoolTestJUnit" />
+        <item itemvalue="JUnit.ApiTest.partialSearchLongName" />
+        <item itemvalue="JUnit.ApiTest.longNameSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +231,20 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/daytests/DayOfWeekTest.java</url>
           <line>8</line>
-          <properties class="DayOfWeekTest" method="test1">
+          <properties class="DayOfWeekTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/api/classwork/ToJson.java</url>
+          <line>22</line>
+          <properties class="api.classwork.ToJson">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,20 +1,20 @@
-package steps;
+package originaltests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import driver.WebDriverConfig;
 
-import java.time.Duration;
-
-public class Class4 {
+public class BookingParis {
 
     public static void main(String[] args) {
 
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = WebDriverConfig.createDriver();
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        driver.manage().window().maximize();
+        //WebDriver driver = new ChromeDriver();
+
+       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        //driver.manage().window().maximize();
         driver.get("https://www.booking.com/");
         driver.findElement(By.xpath("//*[text()='Accept']")).click();
 
@@ -23,9 +23,10 @@ public class Class4 {
         searchfield.clear();
         searchfield.sendKeys("Paris");
 
-        driver.findElement(By.xpath("//*[@aria-label='Dismiss sign in information.']")).click();
-
-
+        WebElement closePopup=driver.findElement(By.xpath("//*[@aria-label='Dismiss sign in information.']"));
+        if(closePopup.isDisplayed()){
+            closePopup.click();
+        }
 
 
         driver.findElement(By.xpath("//button[@data-testid='occupancy-config']//span[@data-testid='searchbox-form-button-icon']")).click();
